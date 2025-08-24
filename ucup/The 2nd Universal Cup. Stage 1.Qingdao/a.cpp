@@ -40,15 +40,29 @@ ll qpow(ll a, ll k, ll p)
     return res;
 }
 void solve(){
-    int n,m;
-    cin>>n>>m;
-    cout<<m<<" ";
-    for(int i=0;i<=n;i++){
-        if((n/(i+1)*i+n%(i+1)>=m)){
-            cout<<i;
-            return ;
+    ll n,x;
+    cin>>n>>x;
+    ll ans=0;
+    int cnt=0;
+    for(int i=0;i<40;i++){
+        if((x>>i)&1){
+            cnt++;
+            ans+=(1LL<<i);
         }
     }
+    if(cnt>=n){
+        cout<<ans;
+        return;
+    }
+    n-=cnt;
+    if(n==1){
+        cout<<-1;
+        return ;
+    }
+    ans+=6;
+    n-=3;
+    // ans+=n/2;
+    cout<<ans+n;
 }
 
 int main(){

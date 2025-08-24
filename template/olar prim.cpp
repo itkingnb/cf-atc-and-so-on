@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
-#define N 100000001
+#define N 10000001
 vector<ll>prim;
 int ok[N];
 void get_prim(){
@@ -19,7 +19,7 @@ void get_prim(){
     }
 }
 void solve(){
-    cout<<prim[123455];
+    cout<<prim.size();
 }
 int main(){
     ios_base::sync_with_stdio(0);

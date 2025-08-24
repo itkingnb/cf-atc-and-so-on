@@ -39,14 +39,59 @@ ll qpow(ll a, ll k, ll p)
     }
     return res;
 }
+const int N = (int)5e6;
+int p[N], vis[N], cnt;
+int a[N]; //a[i]记录i的最小质因子的次数
+ll d[N]; //d[i]记录i的约数个数
+
+void get_d(int n){ //筛法求约数个数
+  d[1] = 1;
+  for(int i=2; i<=n; i++){
+    if(!vis[i]){
+      p[++cnt] = i;
+      a[i] = 1;
+      d[i] = 2;
+    }
+    for(int j=1; i*p[j]<=n; j++){
+      int m = i*p[j];
+      vis[m] = 1;
+      if(i%p[j] == 0){
+        a[m] = a[i]+1;
+        d[m] = d[i]/a[m]*(a[m]+1);
+        break;
+      } 
+      else{
+        a[m] = 1;
+        d[m] = d[i]*2;
+      }
+    }
+  }
+}
 void solve(){
-    
+    int n;
+    cin>>n;
+    vector<int>a(n);
+    // for(int i=0;i<n;i++){
+        // cin>>a[i];
+    // }
+    int ans=0;
+    for(int i=2;i<=n;i++){
+        cout<<i<<" "<<d[i]<<" "<<i-d[i]<<endl;
+        if((i-d[i])&1){
+            ans++;
+        }
+    }
+    cout<<endl;
+    cout<<ans+1;
+
+
 }
 
 int main(){
     ios_base::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
     int t=1;
+    get_d(N);
     cin>>t;
     for(int i=0;i<t;i++){
         solve();

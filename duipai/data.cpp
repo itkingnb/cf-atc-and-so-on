@@ -3,16 +3,37 @@ using namespace std;
 #define ll long long
 std::mt19937 rng(std::chrono::steady_clock::now().time_since_epoch().count());
 int main(){
-    srand(time(0));
-    cout<<1<<endl;
-    int n=rng()%20;
-    n++;
-    ll l=rng()%(int)1e18;
-    l++;
-    ll r=l;
-    cout<<n<<' '<<l<<' '<<r<<' '<<endl;
-    for(int i=0;i<n;i++){
-        cout<<(rng()%2)<<' ';
+    cout<<10<<" "<<5<<'\n';
+    bool ok=0;
+    while(!ok){
+        ok=1;
+        vector<bool>vis(6,0);
+        vector<int>a(10);
+        for(int i=0;i<10;i++){
+            a[i]=rng()%5+1;
+            vis[a[i]]=1;
+        }
+        for(int i=1;i<=5;i++){
+            if(!vis[i]){
+                ok=0;
+            }
+        }
+        if(ok){
+            for(auto x:a){
+                cout<<x<<" ";
+            }
+        }
+    }
+    cout<<endl;
+    int m=4;
+    vector<bool>vis(6,0);
+    while(m){
+        int a=rng()%5+1,b=rng()%5+1;
+        if(a!=b&&!vis[b]&&!vis[a]){
+            cout<<a<<" "<<b<<"\n";
+            vis[b]=1;
+            m--;
+        }
     }
     return 0;
 }
