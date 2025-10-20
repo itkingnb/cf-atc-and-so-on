@@ -68,25 +68,15 @@ void solve(){
     // cout<<mx<<" ";
     ll ans=0;
     for(ll i=1;i<=9;i++){
-        ll t=i*10;
         ll mod=10;
-        // if(mx>)
-        if(mx>=i){
-            ans+=((mx-i)/10+1)*i;
-        }
-        // cerr<<ans<<" ";
-        while(t<=mx){
-            ll hi=mx/(mod*10);
-            ans+=(i*mod)*hi;
-            hi=max(0LL,hi-1);
-            ll tmp=mx-(hi)*(mod*10);
-            ll l=t,r=l+mod-1;
-            ans-=max(0LL,min(mod,tmp-l+1));
-            mod*=10;
+        ll t=i;
+        while(mx>=t){
+            ans+=((mx-t+1)/mod*(mod/10)+min(mod/10,(mx-t+1)%mod))*i;
+            // cerr<<i<<" "<<mx%t<<'\n';
             t*=10;
-            // cerr<<t<<" ";
+            mod*=10;
         }
-        cerr<<i<<" "<<ans<<'\n';
+        // cerr<<ans<<'\n';
     }
     auto cal=[&](ll x)->ll{
         if(x<=9){

@@ -1,0 +1,1 @@
+{"name":"Local: B","url":"d:\\c++\\cf-atc-and-so-on\\codeforces\\Bingo\\B. Phoenix and Beauty.cpp","tests":[{"id":1757943746301,"input":"4\n4 2\n1 2 2 1\n4 3\n1 2 2 1\n3 2\n1 2 3\n4 4\n4 3 4 2\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\c++\\cf-atc-and-so-on\\codeforces\\Bingo\\B. Phoenix and Beauty.cpp","group":"local","local":true}
