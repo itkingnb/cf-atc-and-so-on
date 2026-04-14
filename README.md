@@ -6,14 +6,6 @@
 
 ---
 
-## 👤 Identity
-
-- CF Handle: **Curry999**
-- GitHub: **itkingnb**
-- Focus: Algorithms / Optimization / Contest Performance / Upsolving
-
----
-
 ## 📊 Codeforces Status (Live)
 
 <p align="center">
@@ -28,8 +20,4 @@
   <img src="https://cf.leed.at/api/rating?username=Curry999">
 </p>
 
-## 🏁 Closing
 
-<p align="center">
-  <b>“You don’t rise to the level of problems — you rise to the level of your system.”</b>
-</p>
