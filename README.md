@@ -1,24 +1,28 @@
-# ⚡ Algorithmic Dominion
+# Algorithmic Dashboard
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=2500&pause=900&color=00F7FF&center=true&vCenter=true&width=750&lines=Codeforces+%7C+AtCoder+%7C+Nowcoder;Think+Fast.+Code+Faster.;Optimization+is+a+Lifestyle.;Curry999+Competitive+Programming+Profile" />
+  <b>Codeforces • AtCoder • Nowcoder • Competitive Programming System</b>
 </p>
 
 ---
 
-# 🧠 Codeforces Profile
+## 👤 Identity
+
+- CF Handle: **Curry999**
+- GitHub: **itkingnb**
+- Focus: Algorithms / Optimization / Contest Performance / Upsolving
+
+---
+
+## 📊 Codeforces Status (Live)
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Codeforces-Curry999-blue?style=for-the-badge&logo=codeforces">
-</p>
-
-<p align="center">
-  <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Curry999&theme=dark">
+  <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Curry999&theme=dark&show_icons=true">
 </p>
 
 ---
 
-# 📈 Rating History (Curve)
+## 📈 Rating Curve
 
 <p align="center">
   <img src="https://cf.leed.at/api/rating?username=Curry999">
@@ -26,88 +30,83 @@
 
 ---
 
-# 📊 Competitive Activity Overview
+## 📉 Performance Snapshot
+
+| Metric | Value |
+|------|------|
+| Current Rating | Live (see CF card) |
+| Max Rating | CF Profile |
+| Rank | Dynamic |
+| Trend | Upsolving-driven growth |
+| Mode | Contest → Upsolve → Optimize |
+
+---
+
+## 🧠 Skill Matrix
+
+### Core Algorithms
+- Graph Theory: shortest path / flow / matching / LCA
+- Dynamic Programming: tree DP / bitmask / optimization DP
+- Number Theory: modular arithmetic / combinatorics / gcd
+- Data Structures: segment tree / BIT / DSU / sparse table
+- Strings: KMP / Z-function / hashing / trie
+
+### Advanced Techniques
+- Binary lifting
+- Mo’s algorithm
+- Divide & conquer optimization
+- Greedy structural proofs
+
+---
+
+## 🗂 Repository Architecture
+
+---
+
+## ⚙️ Execution Philosophy
+
+> Precision > verbosity  
+> Templates > rewriting  
+> Optimization > brute force  
+
+- Contest-first coding model
+- Minimal abstraction layers
+- High-speed recall under pressure
+- Post-contest upsolving discipline
+
+---
+
+## 📊 Competitive Flow
+
+---
+
+## 🧭 Competitive Status
+
+- Strength: structured problem solving under time pressure
+- Weakness: continuously optimized via upsolving loop
+- Style: fast implementation + mathematical thinking
+
+---
+
+## 📡 External Profiles
+
+- Codeforces: https://codeforces.com/profile/Curry999
+- AtCoder: https://atcoder.jp/
+
+---
+
+## 🧠 System State
+
+> Always training. Always optimizing. Never static.
 
 <p align="center">
-  <img src="https://codeforces-readme-stats.vercel.app/api/rating-history?username=Curry999&theme=dark">
+  <img src="https://img.shields.io/badge/STATUS-CONTINUOUS%20IMPROVEMENT-black?style=flat-square">
 </p>
 
 ---
 
-# 📉 Problem Solving Trend
+## 🏁 Closing
 
 <p align="center">
-  <img src="https://cfstats.vercel.app/api?username=Curry999">
-</p>
-
-> 📌 If image fails to load, it's due to API rate limits (normal for CF services)
-
----
-
-# 🗂️ Repository Structure
-
----
-
-# ⚔️ Core Algorithm Arsenal
-
-- 🧭 Graph Theory → Dijkstra / Dinic / KM / LCA  
-- 🧠 Dynamic Programming → Knapsack / Tree DP / Bitmask DP  
-- 🔢 Number Theory → GCD / Modular / Combinatorics  
-- 🔤 Strings → KMP / Z / Hash / Trie  
-- 🧱 Data Structures → SegTree / BIT / DSU  
-- ⚡ Advanced → Mo’s Algorithm / Binary Lifting  
-
----
-
-# 🧬 Coding Philosophy
-
-- ⚡ Contest-first mindset  
-- 🧱 Minimal abstraction, maximum speed  
-- 🔥 Templates are weapons, not libraries  
-- 🧠 Solve → Upsolve → Compress knowledge  
-
----
-
-# 🏆 Competitive Identity
-
-<p align="center">
-  <a href="https://codeforces.com/profile/Curry999">
-    <img src="https://img.shields.io/badge/Codeforces-Profile-red?style=for-the-badge&logo=codeforces">
-  </a>
-</p>
-
----
-
-# 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=itkingnb&show_icons=true&theme=tokyonight&hide_border=true">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=itkingnb&theme=tokyonight&hide_border=true">
-</p>
-
----
-
-# 🔥 Activity Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=itkingnb&theme=react-dark&hide_border=true">
-</p>
-
----
-
-# 🧠 Status
-
-<p align="center">
-  <img src="https://img.shields.io/badge/STATUS-ALWAYS%20UPSOLVING-black?style=for-the-badge&logo=hack-the-box">
-</p>
-
----
-
-# ⚡ Final Statement
-
-<p align="center">
-  <b>“Stay sharp. Optimize everything. Never plateau.”</b>
+  <b>“You don’t rise to the level of problems — you rise to the level of your system.”</b>
 </p>
