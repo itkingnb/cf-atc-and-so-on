@@ -1,0 +1,1 @@
+{"name":"Local: c","url":"d:\\c++\\cf-atc-and-so-on\\codeforces\\1074.4\\c.py","tests":[{"id":1768747691099,"input":"6\n1\n4\n5\n0 1 1 2 3\n2\n1 1\n4\n4 2 3 6\n5\n2 4 1 0 -1\n6\n-1 1 2 3 5 6\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\c++\\cf-atc-and-so-on\\codeforces\\1074.4\\c.py","group":"local","local":true}
